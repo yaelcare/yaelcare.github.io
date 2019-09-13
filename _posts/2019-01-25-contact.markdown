@@ -1,0 +1,29 @@
+---
+layout: post
+title: צרו קשר
+date: '2019-01-25 16:10:00'
+---
+
+<form class="uk-form-horizontal" method="POST" action="https://formspree.io/yaelraisman@gmail.com">
+          <input type="hidden" name="_subject" value="הודעה חדשה מ־yael.care">
+          <input type="text" name="_gotcha" style="display:none">
+          <div>
+            <label class="uk-form-label" for="form-horizontal-email">כתובת מייל</label>
+            <div class="uk-form-controls">
+              <input class="uk-input" type="email" name="email" id="form-horizontal-email" placeholder="someone@example.com">
+            </div>
+          </div>
+          <div class="uk-margin">
+            <label class="uk-form-label" for="form-horizontal-name">שם מלא</label>
+            <div class="uk-form-controls">
+              <input class="uk-input" type="text" name="name" id="form-horizontal-name" placeholder="שם ושם משפחה">
+            </div>
+          </div>
+          <div class="uk-margin">
+            <label class="uk-form-label" for="form-horizontal-message">תוכן ההודעה</label>
+            <div class="uk-form-controls">
+              <textarea class="uk-textarea" rows="4" name="message" id="form-horizontal-message" placeholder="כתבו כאן..."></textarea>
+            </div>
+          </div>
+          <button class="uk-button uk-button-primary" type="submit">שלח</button>
+        </form>
